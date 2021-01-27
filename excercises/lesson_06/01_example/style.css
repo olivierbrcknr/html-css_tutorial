@@ -1,0 +1,99 @@
+
+
+body {
+	font-size: 18px;
+	font-family: Helvetica;
+	line-height: 1.2;
+	background: #ecf0f1;
+}
+
+#fixed {
+	position: fixed;
+	background: #FFFFFF; 
+	top: 0;
+	left: 0;
+	padding: 10px;
+	width: 100%;
+	z-index: 2;
+}
+
+#absolute {
+	position: absolute;
+	z-index: 1;
+	top: 70px;
+	left: 20px;
+	width: 200px;
+	background: rgba(255,255,255,0.7);
+	padding: 10px;
+}
+
+#wrapper {
+	padding-left: 200px;
+	padding-top: 50px;
+}
+
+.box {
+	width: 280px;
+	height: 180px;
+	padding: 10px;
+	background: #1abc9c;
+	margin: 10px;
+	color: #FFFFFF;
+}
+
+h3  {
+	
+}
+
+.pseudo {
+	
+}
+.pseudo:hover {
+	background: #64d9c1;
+}
+.pseudo:active {
+	background: #9b59b6;
+}
+
+.transition {
+	/* Overall / new browsers */
+	transition: background 1s;
+	/* Mozilla Firefox */
+	-moz-transition: background 1s;
+	/* Opera */
+	-o-transition: background 1s;
+	/* Apple Safari / Google Chrome */
+	-webkit-transition: background 1s;
+	/* Microsoft Internet Explorer */
+	-ms-transition: background 1s;
+}
+
+.rounded-box {
+	border-radius: 10px;
+}
+
+.shadow-box {
+	box-shadow: 10px 10px 2px #bdc3c7;
+}
+
+h2 {
+	font-size: 18px;
+	color: #1abc9c;
+	text-shadow: 0px 2px 0 #7f8c8d;
+}
+
+#bg {
+	background: url("bg.jpg");
+}
+
+#contain {
+	background: url("bg.jpg") no-repeat center;
+	background-size: contain;	
+	border: 1px solid #bdc3c7;
+}
+
+#cover {
+	background: url("bg.jpg");
+	background-size: cover;
+	border: 1px solid #bdc3c7;
+}

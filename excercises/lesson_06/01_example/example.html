@@ -1,0 +1,71 @@
+<html>
+<head>
+
+	<meta charset="UTF-8" ></meta>
+	<title>Tricks in CSS Example</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+	<div id="fixed">
+		This layer is fixed on top (useful for a navigation for example).
+	</div>
+
+	<div id="absolute">
+		This Layer has a absolute position, no matter where the other layers
+		want it to be (useful for a logo for example).
+	</div>
+
+	<div id="wrapper">
+
+		<h3>Pseudo</h3>
+
+		<div class="pseudo box">
+			This layer has the class <i>pseudo</i> and aditionally two pseudo classes
+			<i>hover</i> and <i>active</i>. Try it yourself, roll over with your mouse 
+			and click this box!
+		</div>
+
+		<div class="pseudo transition box">
+			This is the same layer but aditionally it has a transition property. Try the
+			same thngs as before and see the difference.
+		</div>
+
+		<div class="rounded-box box">
+			This box has rounded corners.
+		</div>
+
+		<div class="shadow-box box">
+			This box has a shadow, 10px to the right, 10px to the bottom and 2px 
+			of blur.
+		</div>
+
+		<h2>Also there is the <i>text-shadow</i> property, working the same way.
+		It is applied to this heading.</h2>
+
+		<div id="bg" class="box">
+
+		</div>
+		<p>
+			This div layer has a simple background image. It repeats itself endlessly.
+		</p>
+
+		<div id="contain" class=" box">
+
+		</div>
+		<p>
+			In this layer it is set to contain, so you will see the whole image.
+		</p>
+
+		<div id="cover" class=" box">
+
+		</div>
+		<p>
+			In this layer it is set to cover, so the whole box is filled.
+		</p>
+
+	</div>
+
+</body>
+</html>

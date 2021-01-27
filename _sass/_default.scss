@@ -180,6 +180,9 @@ sup {
   flex-grow: 1;
   border-right: solid 1px $color-gray-light;
   height: 100vh;
+
+  overflow-y: scroll;
+
   position: sticky;
   top: 0;
 
@@ -252,6 +255,11 @@ footer {
 .lesson-inner {
   max-width: $max-width;
   margin: 0 auto;
+}
+
+.downloadAssetsHeadline {
+  margin-top: $grid*6;
+  margin-bottom: $grid*2;
 }
 
 .downloadButton {

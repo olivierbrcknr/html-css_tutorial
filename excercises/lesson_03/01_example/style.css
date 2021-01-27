@@ -1,0 +1,46 @@
+/* CSS document */
+
+/* You just write your code of CSS as usual. */
+
+p {
+	font-size: 20px;
+	color: #7f8c8d;
+	font-family: Verdana, Geneva, sans-serif;
+} 
+
+h1 {
+	font-size: 36px;
+	text-decoration: underline;
+	
+	/* The new commands are applied like the other
+	ones too: */
+
+	/* Margin is a spacing to the outside. */
+	margin-bottom: 50px; 
+}
+
+h2 {
+	width: 400px;
+	height: 200px;
+	background-color: #7f8c8d;
+}
+
+/* Classes can change the information that was given 
+before to an element. */
+.newText {
+	color: #bdc3c7;
+}
+
+/* you can add as many classes as you want */
+.turqouise {
+	color: #FFFFFF;
+
+	/* Like the color command, the background-color 
+	describes the colour of the background in a hex
+	code. */
+	background-color: #1abc9c;
+
+	/* Padding is some spacing onto the inside. */
+	padding: 30px;
+	margin: 50px;
+}

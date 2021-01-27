@@ -1,0 +1,149 @@
+/* CSS document – template */
+
+
+body {
+	width: 700px;
+	margin: auto;
+	padding-top: 50px;
+	padding-right: 300px;
+	background: #ecf0f1;
+}
+
+
+/* overall everything ************************/
+
+body {
+	color: #333333;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+/* Classic text elements *********************/
+
+/* Usual paragraph */
+p {
+	margin-bottom: 50px;
+}
+/* Links */
+a {
+	color: #f1c411;
+}
+/* Italic / cursive texts */
+i{
+	
+}
+/* Bold texts */
+b {
+	font-weight: bold;
+}
+
+/* Headlines ********************************/
+
+/* Big headline of article */
+h1 {
+	font-weight: bold;
+	font-size: 60px;
+	line-height: 70px;
+	margin-bottom: 20px;
+}
+/* Headlines in between */
+h2 {
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 50px;
+	color: #000000;
+}
+/* Main subheadline */
+h3{
+	color: #95a5a6;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 24px; 
+	line-height: 30px;
+}
+/* Author information */
+h4{
+	margin-bottom: 50px;
+	font-size: 18px;
+	font-weight: normal;
+	color: #7f8c8d;
+}
+/* Image description */
+h5 {
+	color: #bdc3c7;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom: 80px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	background: #FFFFFF;
+}
+/* Last information about author */
+h6 {
+	font-size: 14px;
+	font-weight: normal;
+	color: #bdc3c7;
+	padding-bottom: 100px;
+}
+
+
+/* Other ******************************/
+
+img {
+	width: 660px;
+	padding: 20px;
+	background: #FFFFFF;
+	margin-top: 50px;
+}
+
+ol {
+	margin: 50px;
+}
+
+li {
+	margin-top: 20px;
+	color: #f1c411;
+}
+
+
+/* Classes ***************************** */
+
+.intro {
+	font-style: italic;
+	font-family: Georgia, serif;
+	color: #000000;
+}
+
+.outro {
+	font-style: italic;
+	font-family: Georgia, serif;
+	color: #000000;
+}
+
+.shorten {
+	color: #bdc3c7;
+	font-style: italic;
+	font-weight: bolder;
+}
+
+.funfact {
+	background: #f1c411; 
+	color: #000000;
+	padding: 10px;
+	font-weight: bold;
+	text-align: center;
+	font-size: 32px;
+	line-height: 38px;
+	width: 500px;
+	margin: auto;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+
+
+
+
+
+

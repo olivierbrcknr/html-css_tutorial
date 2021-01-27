@@ -1,0 +1,91 @@
+<html>
+<head>
+
+	<meta charset="UTF-8" ></meta>
+	<title>Box model – Example</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+	<h2>Every Website is built out of boxes. These boxes are called div-layers.</h2>
+
+	<div class="box">
+		This text is inside a div layer, which has the class "box".
+		The class box has CSS values for margin, padding, width and 
+		background-color.
+	</div>
+
+	<div class="box" id="dark">
+		This div-layer has the same class as the div above, but has additionally 
+		the id "dark" with a darker background. The ID overwrites the value of 
+		the class.
+	</div>
+
+	<div class="box">
+		Inside a div layer we add a new div layer with a new class.
+		<div class="inner">
+			And so on, and so on,...
+			<div class="inner">
+				<div class="inner">
+
+				</div>
+			</div>
+			Of course you can add multiplte layers on the same level. Depending on 
+			yout layout.
+			<div class="inner">
+				
+			</div>
+		</div>
+	</div>
+
+	<div class="box">
+		The three boxes in this div layer have a class that gives them a width
+		but they are still showed below each other even if it is possible to 
+		align them next to each other.
+		<div class="noleft">
+
+		</div>
+		<div class="noleft">
+
+		</div>
+		<div class="noleft">
+
+		</div>
+	</div>
+
+	<div class="box">
+		<p>Inside this div layer we have the same multiple div-layer with the class 
+		"left". This class gives these boxes the CSS value "float: left;" which 
+		alows the boxes to align next to each other.<br>
+		When we are done using the float command we have to tell the browser that it
+		is done. Therefore we built the class "clear" with the CSS value "clear:both;"</p>
+		<div class="left">
+
+		</div>
+		<div class="left">
+
+		</div>
+		<div class="left">
+
+		</div>
+		<div class="clear"></div>
+	</div>
+
+	<div class="box">
+		<p>If we do not add this last div layer, our layout will get destroyed.</p>
+		<div class="left">
+
+		</div>
+		<div class="left">
+
+		</div>
+		<div class="left">
+
+		</div>
+	</div>
+
+
+
+</body>
+</html>

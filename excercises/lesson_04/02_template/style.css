@@ -1,0 +1,81 @@
+/* CSS file */
+
+/*
+Colours I used:
+
+Dark grey: #bdc3c7
+Light grey: #ecf0f1
+Green: #1abc9c
+
+Fonts I used:
+
+Verdana
+*/
+
+
+
+/* Applies to everything */
+body {
+	background: #bdc3c7;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	line-height: 1.4;
+}
+
+/* Usual Tags *********************************/
+h1 {
+	font-size: 50px;
+}
+h2 {
+	font-size: 20px;
+}
+h3 {
+	text-align: center;
+	font-size: 30px;
+	padding: 30px 20px;
+}
+
+a {
+	color: #1abc9c;
+	text-decoration: underline;
+}
+b {
+	font-weight: bold;
+}
+img {
+	width: 280px;
+	height: 280px;
+	margin-bottom: 20px;
+}
+
+/* Classes ************************************/
+.clear {
+	clear: both;
+}
+.box {
+	background: #ecf0f1;
+	padding: 20px;
+	margin-bottom: 50px;
+}
+.artist	{
+	width: 280px;
+	margin: 13px;
+	float: left;
+} 
+.column {
+	float: left;
+	width: 400px;
+	margin: 20px;
+}
+
+/* IDs ****************************************/
+#wrapper {
+	width: 960px;
+	padding: 40px 0;
+	margin: auto;
+}
+#footer {
+	text-align: right;
+	color: #FFFFFF;
+	background: #1abc9c;
+}

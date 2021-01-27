@@ -6,3 +6,7 @@ _site/
 /00_old
 
 *.DS_Store
+
+
+*.pdf
+excercises/lesson_00

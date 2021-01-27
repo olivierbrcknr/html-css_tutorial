@@ -1,0 +1,39 @@
+/* CSS document */
+
+.box {
+	width: 600px;
+	margin: 10px;
+	padding: 20px;
+	background: #bdc3c7;
+}
+
+/* IDs get a hash symbol before their name in CSS. */
+#dark {
+	background: #7f8c8d;
+	color: #FFFFFF;
+}
+
+.inner {
+	padding: 20px;
+	margin: 10px;
+	background: rgba(255,255,255,0.3);
+}
+
+.noleft {
+	margin: 10px;
+	width: 150px;
+	height: 150px;
+	background: #1abc9c;
+}
+
+.left {
+	float: left;
+	margin: 10px;
+	width: 150px;
+	height: 150px;
+	background: #1abc9c;
+}
+
+.clear { 
+	clear: both;
+}

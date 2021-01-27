@@ -1,0 +1,43 @@
+
+
+/* Commenting in CSS looks different as in HTML. */
+
+/* In the beginning you write the selector (the HTML tag) 
+that you want to modify. Then you open those curved clips. */
+
+p {
+	/* At first comes the property, then a colon and then 
+	you give it the value you want it to have. Afterwards
+	you end your information with a semicolon. */
+	font-size: 20px;
+
+	/* Colours are usually written in hex-codes. */
+	color: #7f8c8d;
+
+	/* If you don't know, what name the property could have,
+	press ctrl + space bar. A pop up menu should show up with 
+	all the commands that could be used. */
+	font-family: Verdana, Geneva, sans-serif;
+
+
+} 
+
+/* You can do this for each selector. */
+h1 {
+	/* The properties are mostly very self explanatory. */
+	text-align: center;
+	font-size: 36px;
+	text-decoration: underline;
+}
+
+h2 {
+	font-size: 28px;
+	font-weight: bold;
+	color: #64d9c1;
+}
+
+a {
+	text-decoration: underline;
+	color: #1ABC9C;
+	font-style: italic;
+}

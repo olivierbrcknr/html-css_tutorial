@@ -23,6 +23,12 @@ layout: default
           {{ post.content }}
 
 
+          {% if post.presentation or post.material %}
+            <h4 class="downloadAssetsHeadline">
+              Class Assets
+            </h4>
+          {% endif %}
+
           {% if post.presentation %}
             <a class="downloadButton presentation" href="{{ post.presentation }}">
               📈 Open the presentation for {{ post.title }}

@@ -1,0 +1,81 @@
+/* CSS document – task */
+
+
+/* Colours I used:
+
+Light grey:	 #bdc3c7
+Middle grey: #95a5a6
+Dark grey:	 #7f8c8d
+Yellow:		 #f1c40f
+
+Font-families I used:
+
+Helvetica,Arial,sans-serif;
+Georgia, serif;
+
+*/
+
+
+/* overall everything ************************/
+
+body {
+	color: #333333;
+}
+
+/* Classic text elements *********************/
+
+/* Usual paragraph */
+p {
+
+}
+/* Links */
+a {
+}
+/* Italic / cursive texts */
+i{
+	
+}
+/* Bold texts */
+b {
+
+}
+
+/* Headlines ********************************/
+
+/* Big headline of article */
+h1 {
+
+}
+/* Headlines in between */
+h2 {
+
+}
+/* Main subheadline */
+h3{
+	
+}
+/* Author information */
+h4{
+	
+}
+/* Image description */
+h5 {
+	
+}
+/* Last information about author */
+h6 {
+	
+}
+
+/* Other – What else needs to be styled? ***/
+
+
+
+
+/* Classes – Add as many as you need *******/
+
+
+
+
+
+

@@ -1,0 +1,56 @@
+/* CSS file */
+
+/*
+Colours I used:
+
+Dark grey: #bdc3c7
+Light grey: #ecf0f1
+Green: #1abc9c
+
+Font-family I used:
+
+Verdana, Geneva, sans-serif
+*/
+
+
+
+/* Add up classes and IDs as needed! */
+
+
+/* Applies to everything */
+body {
+	background: #bdc3c7;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	line-height: 1.4;
+}
+
+/* Usual Tags *********************************/
+h1 {
+
+}
+h2 {
+	
+}
+h3 {
+
+}
+a {
+	
+}
+b {
+	
+}
+img {
+	
+}
+
+/* Classes ************************************/
+.clear {
+	clear: both;
+}
+
+/* IDs ****************************************/
+#wrapper {
+	
+}
