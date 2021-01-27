@@ -16,13 +16,14 @@ $color-highlight: #1abc9c;
 
 
 // Colors — Dark Mode
-$color-dm-bg: #131313;
+$color-dm-bg: #0E1116;
 
-$color-dm-font-reg: #FFFFFF;
+$color-dm-font-reg: #CAD1D8;
+$color-dm-font-light: #FFFFFF;
 
-$color-dm-gray-extra-light: #222;
-$color-dm-gray-light: #333;
-$color-dm-gray-med: darken( $color-dm-font-reg , 50% );
+$color-dm-gray-extra-light: #171B21;
+$color-dm-gray-light: #31363C;
+$color-dm-gray-med: #6F7680;
 
 // Sizes
 $grid: 8px;

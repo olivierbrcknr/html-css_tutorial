@@ -52,6 +52,10 @@ h4 {
 
 a {
   color: $color-highlight;
+  text-decoration: none;
+  &:hover {
+    color: lighten( $color-highlight, 10% );
+  }
 }
 
 p {
@@ -87,7 +91,14 @@ table {
 
   // width: calc( 100vw - #{$nav-width} );
 
+  img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
   .image-subtitle {
+    margin-top: $grid;
     text-align: center;
     font-size: 14px;
     color: $color-gray-med;

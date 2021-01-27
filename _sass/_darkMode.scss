@@ -5,6 +5,10 @@ html {
   background: $color-dm-bg;
 }
 
+.invertIfDark {
+  filter: invert(1) brightness(0.8) hue-rotate(190deg) saturate(2.2);
+}
+
 h4,
 sup,
 .lesson-title,

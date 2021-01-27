@@ -5,6 +5,7 @@ pre.highlight {
   padding: $grid;
   white-space: pre;
   overflow-x: scroll;
+  tab-size: 1em;
 }
 
 code {
@@ -20,6 +21,7 @@ code {
 pre.highlight code {
   background: none;
   padding: none;
+  tab-size: 1em;
 }
 
 .highlight .c { color: #586E75 } /* Comment */
