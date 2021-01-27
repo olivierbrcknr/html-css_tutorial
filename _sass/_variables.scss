@@ -20,6 +20,10 @@ $color-dm-bg: #131313;
 
 $color-dm-font-reg: #FFFFFF;
 
+$color-dm-gray-extra-light: #222;
+$color-dm-gray-light: #333;
+$color-dm-gray-med: darken( $color-dm-font-reg , 50% );
+
 // Sizes
 $grid: 8px;
 $max-width: 680px;

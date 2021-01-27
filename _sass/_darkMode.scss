@@ -4,3 +4,45 @@ html {
   color: $color-dm-font-reg;
   background: $color-dm-bg;
 }
+
+h4,
+sup,
+.lesson-title,
+.imageContainer .image-subtitle,
+.footnotes:before {
+  color: $color-dm-gray-med;
+}
+
+table {
+  tr {
+    border-color: $color-dm-gray-light;
+
+    &:hover td {
+      background: $color-dm-gray-extra-light;
+    }
+  }
+}
+
+.lesson,
+.tutorialNavigation,
+.tutorialNavigation ul li a {
+  border-color: $color-dm-gray-light;
+}
+.tutorialNavigation ul li a:hover {
+  background: $color-dm-gray-extra-light;
+}
+
+.downloadButton {
+  color: $color-dm-font-reg;
+  border-color: $color-dm-gray-light;
+}
+
+
+
+// highlight
+pre.highlight {
+  background: lighten( $color-dm-bg, 10% );
+}
+code {
+  background: lighten( $color-dm-bg, 15% );
+}
