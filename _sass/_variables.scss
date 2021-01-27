@@ -6,30 +6,24 @@
 // Colors
 $color-bg: #FFFFFF;
 
-$color-bg-light: darken($color-bg, 3%);
-
 $color-font-reg: #191a1c;
-$color-font-med-dark: lighten( $color-font-reg, 40% );
-$color-font-med: lighten( $color-font-reg, 50% );
-$color-font-light: lighten( $color-font-reg, 70% );
-$color-font-light-light: lighten( $color-font-reg, 82% );
+
+$color-gray-extra-light: #f7f7f7;
+$color-gray-light: #CCC;
+$color-gray-med: lighten( $color-font-reg , 50% );
+
+$color-highlight: #1abc9c;
 
 
 // Colors — Dark Mode
 $color-dm-bg: #131313;
-$color-dm-bg-light: lighten($color-dm-bg, 3%);
 
-$color-dm-font-reg: #FFF;
-$color-dm-font-med-dark: darken( $color-dm-font-reg, 40% );
-$color-dm-font-med: darken( $color-dm-font-reg, 50% );
-$color-dm-font-light: darken( $color-dm-font-reg, 70% );
-$color-dm-font-light-light: darken( $color-dm-font-reg, 82% );
-
+$color-dm-font-reg: #FFFFFF;
 
 // Sizes
 $grid: 8px;
-
 $max-width: 680px;
+$nav-width: 300px;
 
 // Fonts
 $font-regular: 'IBM Plex Sans', sans-serif;

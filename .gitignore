@@ -3,6 +3,6 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 
-/old
+/00_old
 
 *.DS_Store

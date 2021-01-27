@@ -1,19 +1,47 @@
 ---
 layout: default
 ---
-<div class="projectContainer">
-  {% for post in site.posts %}
 
-    <div class="info">
-      <h2>
-        {{ post.title }}
-      </h2>
+{% include nav.html %}
 
-    </div>
+<div class="content">
 
-  {% endfor %}
-</div>
+  <div class="lessonContainer">
+    {% for post in site.posts reversed %}
 
-<div class="d-hide mobileFooter">
-  {% include footer.html %}
+      <section class="lesson" id="{{ post.title | slugify }}">
+
+        <div class="lesson-inner">
+
+          <div class="lesson-title">
+            {{ post.title }}
+          </div>
+          <h2>
+            {{ post.topic }}
+          </h2>
+
+          {{ post.content }}
+
+
+          {% if post.presentation %}
+            <a class="downloadButton presentation" href="{{ post.presentation }}">
+              📈 Open the presentation for {{ post.title }}
+            </a>
+          {% endif %}
+
+          {% if post.material %}
+
+            <a class="downloadButton material" href="https://github.com/olivierbrcknr/html-css_tutorial/excercises/{{post.material}}">
+              📄 Download the material for {{ post.title }}
+            </a>
+
+          {% endif %}
+
+        </div>
+
+      </section>
+
+    {% endfor %}
+  </div>
+
 </div>

@@ -10,5 +10,269 @@ html {
   font-size: 16px;
   line-height: 1.8;
   background: $color-bg;
-  font-feature-settings: "case", "calt", "liga";
+  // font-feature-settings: "case", "calt", "liga";
+}
+
+h1 {
+
+}
+.lesson-title {
+  text-transform: uppercase;
+  font-size: 13px;
+  color: $color-gray-med;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  margin-bottom: 0;
+}
+h2 {
+  font-size: 26px;
+  font-weight: 400;
+  margin-bottom: $grid*3;
+}
+.lesson-title + h2 {
+  margin-top: $grid * -1;
+}
+h3 {
+  font-size: 18px;
+  font-weight: 500;
+  margin: $grid*3 0 $grid*1 0;
+}
+h4 {
+  text-transform: uppercase;
+  font-size: 13px;
+  color: $color-gray-med;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  margin: $grid*3 0 $grid*1 0;
+}
+
+a {
+  color: $color-highlight;
+}
+
+p {
+
+}
+p + p {
+  margin-top: $grid;
+}
+
+table {
+  width: 100%;
+
+  tr {
+    display: flex;
+    border-top: solid 1px $color-gray-light;
+
+    &:first-child {
+      border-top: none;
+    }
+    td {
+      flex: 1;
+      padding: $grid 0;
+    }
+    &:hover td {
+      background: $color-gray-extra-light;
+    }
+  }
+}
+
+.imageContainer {
+
+  margin: $grid*5 0;
+
+  // width: calc( 100vw - #{$nav-width} );
+
+  .image-subtitle {
+    text-align: center;
+    font-size: 14px;
+    color: $color-gray-med;
+  }
+}
+
+.multiImages {
+
+  /*
+  width: calc( 100vw - #{$nav-width} );
+  transform: translateX(-50%);
+  left: 50%;
+  padding: 0 $grid*3;
+  */
+
+  display: flex;
+  justify-content: space-between;
+
+  .imageContainer {
+    width: calc( 50% - #{$grid} );
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  padding: $grid $grid*3;
+  list-style: disc;
+
+  li {
+    margin-bottom: $grid/2;
+  }
+}
+
+sup {
+  font-family: $font-mono;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 0 2px;
+  color: $color-gray-med;
+  font-style: normal;
+  text-decoration: none;
+  a {
+    border: none;
+    text-decoration: none;
+    color: currentColor;
+  }
+}
+
+.footnotes {
+
+  margin-top: $grid*4;
+  margin-bottom: $grid*4;
+  font-family: $font-mono;
+  font-size: 11px;
+  line-height: 15px;
+
+  &:before {
+    content: '';
+    display: block;
+    margin-bottom: $grid*2;
+    width: $grid*4;
+    height: 1px;
+    background: $color-gray-med;
+  }
+
+  ol {
+    list-style: decimal-leading-zero;
+    padding-left: 27px;
+  }
+  li {
+    top: initial !important;
+  }
+  .reversefootnote {
+    display: initial;
+    border: none;
+    text-decoration: none;
+  }
+}
+
+// ————————————————————————————————————————————
+
+
+#wrapper {
+  display: flex;
+  width: 100vw;
+}
+
+.tutorialNavigation {
+  max-width: $nav-width;
+  flex-shrink: 0;
+  flex-grow: 1;
+  border-right: solid 1px $color-gray-light;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  ul {
+    list-style: none;
+    padding: 0;
+
+    li {
+      margin: 0;
+
+      a {
+        display: block;
+        color: currentColor;
+        text-decoration: none;
+        width: 100%;
+        padding: $grid;
+        border-bottom: solid 1px $color-gray-light;
+
+        &:hover {
+          background: $color-gray-extra-light;
+        }
+
+        .lesson-title {
+          font-size: 10px;
+        }
+        .topic {
+          margin-top: -4px;
+          font-size: 14px;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}
+
+
+footer {
+  font-family: $font-mono;
+  font-size: 11px;
+  padding: $grid;
+
+  a {
+    color: currentColor;
+  }
+}
+
+.content {
+  min-width: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.lessonContainer {
+
+}
+
+.lesson {
+  padding: $grid*5 $grid*3 $grid*10 $grid*3;
+  border-bottom: solid 1px $color-gray-light;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.lesson-inner {
+  max-width: $max-width;
+  margin: 0 auto;
+}
+
+.downloadButton {
+  max-width: 400px;
+
+  color: $color-font-reg;
+  display: block;
+  margin: $grid 0;
+
+  border: currentColor solid 1px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  padding: $grid;
+  text-decoration: none;
+
+  &:hover {
+    background: $color-highlight;
+    border-color: $color-highlight;
+    color: #fff;
+  }
 }

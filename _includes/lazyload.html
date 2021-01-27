@@ -1,0 +1,62 @@
+
+<div class="imageContainer">
+  {% if include.image_src %}
+
+    {% if include.image_src contains "http" %}
+
+    <!-- If javascript is not on. -->
+    <noscript><img src="{{include.image_src}}" alt="{{include.image_alt}}" title="{{include.image_title}}" class="{{include.class}}" /></noscript>
+
+    <!-- If javascript is present. -->
+    <img data-src="{{include.image_src}}" alt="{{include.image_alt}}" title="{{include.image_title}}" class="blur-up lazyload {{include.class}}" />
+
+    {% else %}
+
+    <!-- If javascript is not on. -->
+    <noscript><img src="{{ site.baseurl }}/assets/{{include.image_src}}" alt="{{include.image_alt}}" title="{{include.image_title}}" class="{{include.class}}" /></noscript>
+
+    <!-- If javascript is present. -->
+    <img data-src="{{ site.baseurl }}/assets/{{include.image_src}}" alt="{{include.image_alt}}" title="{{include.image_title}}" class="blur-up  lazyload {{include.class}}" />
+
+    {% endif %}
+
+  {% endif %}
+
+
+  {% if include.video_src %}
+
+    {% if include.video_src contains "http" %}
+
+    <video
+      class="lazyload"
+      preload="none"
+      muted
+      autoplay
+      loop
+      data-src="{{include.video_src}}"
+      >
+    </video>
+
+    {% else %}
+
+    <video
+      class="lazyload"
+      preload="none"
+      muted
+      autoplay
+      loop
+      data-src="{{ site.baseurl }}/assets/{{include.video_src}}"
+      >
+    </video>
+
+    {% endif %}
+
+  {% endif %}
+
+  {% if include.subtitle %}
+    <p class="image-subtitle">
+      {{include.subtitle}}
+    </p>
+  {% endif %}
+
+</div>

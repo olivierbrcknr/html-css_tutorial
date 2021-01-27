@@ -3,7 +3,8 @@ pre.highlight {
   background: lighten( $color-font-reg, 85% );
   border-radius: 2px;
   padding: $grid;
-  font-variant-ligatures: none;
+  white-space: pre;
+  overflow-x: scroll;
 }
 
 code {
@@ -12,6 +13,13 @@ code {
   border-radius: 2px;
   padding: 0px 4px;
   font-size: 0.85em;
+  font-variant-ligatures: none;
+  font-feature-settings: unset;
+}
+
+pre.highlight code {
+  background: none;
+  padding: none;
 }
 
 .highlight .c { color: #586E75 } /* Comment */

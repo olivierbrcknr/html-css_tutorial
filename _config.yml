@@ -12,3 +12,6 @@ kramdown:
   input: GFM
   html_to_native: true
   syntax_highlighter: rouge
+
+exclude:
+  - 00_old
