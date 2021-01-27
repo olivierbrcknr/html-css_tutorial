@@ -1,0 +1,14 @@
+title: HTML & CSS Tutorial # Title of site.
+
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+permalink: :title
+
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  html_to_native: true
+  syntax_highlighter: rouge

@@ -1,0 +1,14 @@
+* {
+  position: relative;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+  font-family: $font-regular;
+  color: $color-font-reg;
+  font-size: 16px;
+  line-height: 1.8;
+  background: $color-bg;
+  font-feature-settings: "case", "calt", "liga";
+}

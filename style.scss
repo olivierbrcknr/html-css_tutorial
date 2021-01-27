@@ -1,0 +1,17 @@
+---
+---
+
+// setup
+@import "reset";
+@import "variables";
+
+// base
+@import "default";
+
+// code higlighting
+@import "highlights";
+
+// include DarkMode
+@media (prefers-color-scheme: dark) {
+  @import "darkMode";
+}

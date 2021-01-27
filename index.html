@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<div class="projectContainer">
+  {% for post in site.posts %}
+
+    <div class="info">
+      <h2>
+        {{ post.title }}
+      </h2>
+
+    </div>
+
+  {% endfor %}
+</div>
+
+<div class="d-hide mobileFooter">
+  {% include footer.html %}
+</div>

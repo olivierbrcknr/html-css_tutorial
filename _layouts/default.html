@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      {% if page.title %}{{ page.title }} – {% endif %}{{ site.title }}
+    </title>
+
+    <meta charset="utf-8" />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    <meta name="robots" content="noindex" />
+
+    <!--
+      <link rel="icon" type="image/x-icon" sizes="16x16 32x32" href="{{ site.baseurl }}/assets/favicon.ico"> -->
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+
+    <script type="text/javascript" src="{{ site.baseurl }}/default.js"></script>
+
+  </head>
+
+  <body class="{{ page.layout }}">
+
+    <div id="wrapper">
+
+      {{ content }}
+
+    </div>
+
+  </body>
+</html>
