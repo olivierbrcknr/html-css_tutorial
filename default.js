@@ -1,3 +1,35 @@
-document.addEventListener("DOMContentLoaded", function(){
+let checkCurrentLesson = () => {
 
+  let currentLesson = 0;
+
+  document.querySelectorAll('.lesson').forEach( (l,i) => {
+    if( l.getBoundingClientRect().top <= 1 && l.getBoundingClientRect().bottom >= 0 ){
+      currentLesson = i;
+    }
+  } )
+
+  document.querySelectorAll('.tutorialNavigation li').forEach( (n,k)=>{
+
+    if( k < currentLesson ){
+      n.classList.add('isDone');
+      n.classList.remove('isCurrent');
+    }else if( k === currentLesson ){
+      n.classList.remove('isDone');
+      n.classList.add('isCurrent');
+    }else{
+      n.classList.remove('isDone');
+      n.classList.remove('isCurrent');
+    }
+
+  } )
+
+}
+
+document.addEventListener("DOMContentLoaded", function(){
+  checkCurrentLesson();
+});
+
+
+document.addEventListener("scroll", function(){
+  checkCurrentLesson();
 });

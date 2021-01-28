@@ -126,13 +126,17 @@ img {
   max-width: 100%;
 }
 
-ul {
+ul, ol {
   padding: $grid $grid*3;
   list-style: disc;
 
   li {
     margin-bottom: $grid/2;
   }
+}
+
+ol {
+  list-style: decimal;
 }
 
 sup {
@@ -232,6 +236,14 @@ sup {
           font-size: 14px;
           font-weight: 400;
         }
+      }
+
+      &.isDone a,
+      &.isDone .lesson-title {
+        color: $color-gray-light;
+      }
+      &.isCurrent a {
+        background: $color-gray-light !important;
       }
     }
   }

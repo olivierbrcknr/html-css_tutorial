@@ -35,6 +35,13 @@ table {
 .tutorialNavigation ul li a:hover {
   background: $color-dm-gray-extra-light;
 }
+.tutorialNavigation ul li.isDone a,
+.tutorialNavigation ul li.isDone .lesson-title {
+  color: $color-dm-gray-light;
+}
+.tutorialNavigation ul li.isCurrent a {
+  background: $color-dm-gray-light !important;
+}
 
 .downloadButton {
   color: $color-dm-font-reg;
@@ -45,8 +52,8 @@ table {
 
 // highlight
 pre.highlight {
-  background: lighten( $color-dm-bg, 10% );
+  background: lighten( $color-dm-bg, 5% );
 }
 code {
-  background: lighten( $color-dm-bg, 15% );
+  background: lighten( $color-dm-bg, 10% );
 }
