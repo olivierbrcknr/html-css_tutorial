@@ -1,0 +1,27 @@
+
+
+
+
+<div class="colorpicker">
+
+  <div class="hexValue">
+    <input type="text" id="hex" maxlength="6" value="1ABC9C" />
+  </div>
+
+  <label for="hex">
+    <div class="colorfield"></div>
+  </label>
+</div>
+
+
+
+<script type="text/javascript">
+
+let colorField = document.querySelector('.colorfield')
+
+document.querySelector('.colorpicker').addEventListener('input', (event) => {
+  colorField.style.background = '#' + event.target.value;
+});
+
+
+</script>

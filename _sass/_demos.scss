@@ -1,0 +1,63 @@
+
+
+// Color tag
+.colorExampleDemo {
+  display: inline-block;
+  color: #FFF;
+  background: #1abc9c;
+  padding: 3px 4px;
+  line-height: 1;
+  border-radius: 2px;
+  font-weight: 400;
+}
+
+// Color Picker
+.colorpicker {
+  margin: $grid*3 auto !important;
+  max-width: 400px;
+}
+
+.hexValue,
+#hex {
+  font-family: $font-mono;
+  font-size: 28px;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.hexValue:before {
+  content: '#';
+  padding-top: 0.3em;
+  margin-right: -0.5em;
+}
+
+#hex {
+  appearance: none;
+  width: 110px;
+  margin: 0;
+  border: none;
+  border-bottom: solid 1px $color-gray-light;
+  margin-bottom: $grid*2;
+  color: $color-font-reg;
+  background: none;
+}
+
+.colorfield {
+  width: 100%;
+  height: 200px;
+  margin: auto;
+  border-radius: 3px;
+  cursor: pointer;
+  background: #1abc9c;
+  border: solid 1px $color-gray-light;
+}
+
+@media (prefers-color-scheme: dark) {
+  #hex {
+    color: $color-dm-font-reg;
+    border-color: $color-dm-gray-light;
+  }
+  .colorfield {
+    border-color: $color-dm-gray-light;
+  }
+}

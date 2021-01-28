@@ -2,12 +2,12 @@
 topic: HTML & CSS Dorkshop
 ---
 
-This website holds the content for the HTML & CSS Introduction tutorial/dorkshop. Here you will find the lectures content and description for you to read after the classes.
+This website holds the content for the HTML & CSS Introduction tutorial/dorkshop. Here you will find each lecture’s content and description for you to accompany the classes.
 
-Each lesson includes an explanation, an example, and an exercise for you to test the new content.
+Each lesson has material on GitHub, including an explanation example, a template, and an exercise to test the newly learned content.
 
-Here are some resources:
+Here you can find all the resources:
 
 - The [GitHub repository](https://github.com/olivierbrcknr/html-css_tutorial) 📘
-- The 	[exercises](https://github.com/olivierbrcknr/html-css_tutorial/tree/main/excercises) 📄
-- The [presentations](https://drive.google.com/drive/folders/1SxFmyyex6pYhZno71sLRm4VQ7Dak4Q--?usp=sharing) 📹
+- All [exercises](https://github.com/olivierbrcknr/html-css_tutorial/tree/main/excercises) 📄
+- All [presentations](https://drive.google.com/drive/folders/1SxFmyyex6pYhZno71sLRm4VQ7Dak4Q--?usp=sharing) 📹
