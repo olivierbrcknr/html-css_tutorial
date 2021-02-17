@@ -49,6 +49,10 @@ h4 {
   letter-spacing: 0.04em;
   margin: $grid*3 0 $grid*1 0;
 }
+h5 {
+  font-weight: 500;
+  margin-bottom: $grid;
+}
 
 a {
   color: $color-highlight;
