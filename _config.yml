@@ -16,3 +16,7 @@ kramdown:
 exclude:
   - 00_old
   - excercises
+
+collections:
+  lessons:
+    output: false

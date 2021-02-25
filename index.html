@@ -7,7 +7,8 @@ layout: default
 <div class="content">
 
   <div class="lessonContainer">
-    {% for post in site.posts reversed %}
+    {% assign lessons = site.lessons | sort: 'date' | reverse %}
+    {% for post in lessons reversed %}
 
       <section class="lesson" id="{{ post.title | slugify }}">
 

@@ -3,8 +3,8 @@
 <nav class="tutorialNavigation">
 
   <ul>
-
-    {% for post in site.posts reversed %}
+    {% assign lessons = site.lessons | sort: 'date' | reverse %}
+    {% for post in lessons reversed %}
       <li>
         <a href="#{{ post.title | slugify }}">
           <div class="lesson-title">
