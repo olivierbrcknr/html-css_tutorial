@@ -19,21 +19,13 @@
 	background: rgba(255,255,255,0.3);
 }
 
-.noleft {
+.column {
 	margin: 10px;
 	width: 150px;
 	height: 150px;
 	background: #1abc9c;
 }
 
-.left {
-	float: left;
-	margin: 10px;
-	width: 150px;
-	height: 150px;
-	background: #1abc9c;
-}
-
-.clear { 
-	clear: both;
+.multiColumns {
+  display: flex;
 }

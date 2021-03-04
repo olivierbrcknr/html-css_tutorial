@@ -1,7 +1,10 @@
-# Lesson 1 Exercise: Introduction in HTML
+# Lesson 6: Even More About CSS
 
-Look at the template I made in [`02_template/jd.html`](02_template/jd.html) in your browser. Download the folder [`03_task`](https://github.com/olivierbrcknr/html-css_tutorial/archive/main.zip) Then open the file [`05_task/task-work_here.html`](05_task/task-work_here.html) in your text editor and try to rebuild the template website.
+You know a lot already, so this time, there is no template! Download the [`03_task`](03_task) folder and start creating a small virtual business card for yourself—the beginning of your portfolio!
 
-If you have trouble with the HTML commands look at the [website](https://olivierbrcknr.github.io/html-css_tutorial/#lesson-01) or have a look at the [`02_template/jd.html`](02_template/jd.html) file, there I explained everything again within the comments (open it in you text editor too).
+Think about the layout you would like to build, how you think it would need to be set up, and, of course, what you want to show the world!
 
-I hope you don't have too much problems rebuilding everything. If you have, don't hesitate to ask me!
+If you have problems with the new commands, have a look at the [presentation](https://docs.google.com/presentation/d/1xlFrevdxpPJW9l8GnwUVMLAjFxlNHLX7yeXypT0lbNg/edit?usp=sharing) or at the [`01_example/example.html`](01_example/example.html) and the [`01_example/style.css`](01_example/style.css) files, there I explained everything again.
+
+Don't hesitate to ask me!
+           

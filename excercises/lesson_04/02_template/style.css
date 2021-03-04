@@ -49,22 +49,18 @@ img {
 }
 
 /* Classes ************************************/
-.clear {
-	clear: both;
-}
 .box {
 	background: #ecf0f1;
 	padding: 20px;
 	margin-bottom: 50px;
 }
+.columns {
+  display: flex;
+}
 .artist	{
-	width: 280px;
 	margin: 13px;
-	float: left;
-} 
+}
 .column {
-	float: left;
-	width: 400px;
 	margin: 20px;
 }
 
