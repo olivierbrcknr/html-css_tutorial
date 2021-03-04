@@ -25,8 +25,34 @@ let checkCurrentLesson = () => {
 
 }
 
+let toggleNav = () => {
+
+  let nav = document.querySelector('.tutorialNavigation');
+  let toggleBtn = nav.querySelector('.MobileNavToggle');
+
+  toggleBtn.addEventListener('click', ()=>{
+
+    if ( nav.classList.contains('showNavigation') ) {
+      toggleBtn.textContent = 'Open Navigation';
+    }else{
+      toggleBtn.textContent = 'Close Navigation';
+    }
+
+    nav.classList.toggle('showNavigation');
+
+  });
+
+   nav.querySelectorAll('li a').forEach((el)=>{
+     el.addEventListener('click',()=>{
+      nav.classList.remove('showNavigation');
+    });
+  })
+
+}
+
 document.addEventListener("DOMContentLoaded", function(){
   checkCurrentLesson();
+  toggleNav();
 });
 
 

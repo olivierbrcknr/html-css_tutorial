@@ -1,0 +1,97 @@
+
+#wrapper {
+  overflow-x: hidden;
+}
+
+
+.lesson {
+  padding-top: $grid*8;
+  padding-left: $grid*2;
+  padding-right: $grid*2;
+}
+
+.tutorialNavigation {
+  position: fixed;
+  max-width: initial;
+  border-right: none;
+  width: 100vw;
+  height: calc( 100vh + 1px );
+  background: $color-bg;
+  z-index: 1000;
+
+  transition: top 0.4s;
+
+  top: calc( -100vh + 48px );
+  border-bottom: solid 1px $color-gray-light;
+  justify-content: initial;
+
+  &.showNavigation {
+    top: 0;
+  }
+
+  ul {
+    max-height: calc( 100% - 48px );
+    overflow-y: scroll;
+    li a {
+      padding-left: $grid*2;
+    }
+  }
+
+  .MobileHeader {
+    border-top: solid 1px $color-gray-light;
+    margin-top: auto;
+    display: block;
+    height: 49px;
+    padding: $grid $grid*2;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    h1 {
+      font-weight: 500;
+      letter-spacing: 0.03em;
+    }
+
+    .MobileNavToggle {
+      color: $color-gray-med;
+      font-size: 13px;
+    }
+  }
+}
+
+footer {
+  text-align: right;
+  color: $color-gray-med;
+  a {
+    color: currentColor;
+  }
+}
+
+#wrapper {
+  flex-direction: column;
+}
+
+
+
+// include DarkMode
+@media (prefers-color-scheme: dark) {
+
+  .tutorialNavigation {
+    background: $color-dm-bg;
+    border-color: $color-dm-gray-light;
+
+    .MobileHeader {
+      border-color: $color-dm-gray-light;
+
+      .MobileNavToggle {
+        color: $color-dm-gray-med;
+      }
+    }
+  }
+
+  footer {
+    color: $color-dm-gray-med;
+  }
+}
+

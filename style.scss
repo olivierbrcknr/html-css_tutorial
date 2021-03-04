@@ -14,6 +14,11 @@
 // demos
 @import "demos";
 
+// include responsive
+@media only screen and (max-width: $mobile-breakpoint) {
+  @import "mobile";
+}
+
 // include DarkMode
 @media (prefers-color-scheme: dark) {
   @import "darkMode";

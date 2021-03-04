@@ -126,4 +126,32 @@
     margin: 50px auto;
   }
 }
+@media only screen and (max-width: $mobile-breakpoint) {
 
+  .marginPaddingDemo {
+    .demoContainer {
+      width: calc( 50% - #{$grid*2} );
+      .mpBox {
+        height: 150px;
+        width: 150px;
+        .Box_inner {
+          width: 80px;
+          height: 80px;
+        }
+      }
+    }
+  }
+
+  @keyframes marginBox {
+    0%, 10% {
+      height: 150px;
+      width: 150px;
+      margin: 0 auto;
+    }
+    90%, 100%  {
+      height: 80px;
+      width: 80px;
+      margin: 35px auto;
+    }
+  }
+}
