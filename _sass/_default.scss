@@ -84,9 +84,13 @@ table {
     &:first-child {
       border-top: none;
     }
-    td {
+    td,th {
       flex: 1;
       padding: $grid 0;
+    }
+    th {
+      font-weight: 500;
+      border-bottom: solid 1px $color-gray-med;
     }
     &:hover td {
       background: $color-gray-extra-light;
