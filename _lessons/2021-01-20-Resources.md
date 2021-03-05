@@ -18,7 +18,7 @@ A list of libraries with a lot of fonts ready to use for web.
 - [Google Fonts](https://fonts.google.com/)
 - [Adobe Fonts](https://fonts.adobe.com/) (requires an Adobe CC account)
 
-### Helpful Snippets
+### Helpful Scripts and Code Snippets
 
 Here you will find a list of useful, open-source files that might help you with developing your website.
 
@@ -61,9 +61,10 @@ Here you will find a list of tools and links, which become relevant when it come
 
 -->
 
-### People to Follow
+### Inspiration and Interesting Code Pieces
 
-Here you will find a list of some people who do inspiring stuff with HTML & CSS. They often post some smaller snippets that can come in quite handy!
+Here you will find a list of inspiring stuff, done with HTML & CSS, or people to follow. They often post some smaller snippets that can come in quite handy!
 
 - [Kevin Powell](https://twitter.com/kevinjpowell)
 - [Josh W. Comeau](https://twitter.com/joshwcomeau)
+- [Browserfest](https://browserfest.netizen.org/)
