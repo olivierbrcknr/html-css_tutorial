@@ -24,6 +24,7 @@ Here you will find a list of useful, open-source files that might help you with 
 
 - [reset.css](https://gist.github.com/DavidWells/18e73022e723037a50d6) — Sets all default CSS to nothing.
 - [lazyload.js](https://github.com/verlok/vanilla-lazyload) — Loads images when the user scrolls to the image and does not preload the images.
+- [Emoji as favicon](https://css-tricks.com/emojis-as-favicons/)
 
 ### Helpful Guides
 
@@ -38,6 +39,7 @@ Here you will find a list of useful websites, going into more detail than I did.
 Here you will find a list of tools that can help you making websites.
 
 - [ImageOptim](https://imageoptim.com/) — Reduces image sizes.
+- [TinyPNG](https://tinypng.com/) — Reduces image sizes.
 - [Handbrake](https://handbrake.fr/) — Reduce video sizes.
 - [Figma](https://figma.com/) — Designing websites.
 
